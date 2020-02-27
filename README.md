@@ -10,8 +10,10 @@ DATABASES = { 'default': { 'ENGINE': 'django.db.backends.postgresql_psycopg2', '
 
 Выполнить миграции:
 mysite>python manage.py migrate
+
 Создать суперюзера:
 mysite>python manage.py createsuperuser
+
 Запустить сервер:
 mysite>python manage.py runserver
 
